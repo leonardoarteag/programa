@@ -1,0 +1,31 @@
+/*descripcion : calcular el area de un cuadrado */ 
+/*entrada: lado 1 y lado 2 */
+/*salida: area */
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include "math.h"
+
+
+void main()
+{
+  float lado,area;
+	printf("calculo del area del cuadrado \n");
+	printf("============================ \n \n \n");
+	printf("ingrese la lado ");
+	scanf("%f",&lado);
+	if((lado 1>0)&&(lado 2>0))
+	{
+	//calcula el area 
+	area=(pow (lado,2));
+	printf("\n el area es: %f" , area );
+	}
+	else
+	{ 
+		printf("ERROR no acepta datos negativos ");
+		
+	}
+	getch();
+	
+}
