@@ -1,0 +1,28 @@
+/* materia: intoduccion a la programacion */
+/* programa : calculo del area*/ 
+ /*  nombre : leonardo arteaga alba*/ 
+   /*fecha  : 12/07/2013*/
+/*descripcion : calcular el area de unn triangulo en base a sus lados*/ 
+/*entrada: base y altura */
+/*salida: area */
+
+#include "stdafx.h"
+#include "sdio.h"
+#include "conio.h"
+
+
+void main()
+{
+  float base,altura,area;
+	printf("calculo del area del triangulo \n");
+	printf("============================ \n \n \n");
+	printf("ingrese la base ");
+	scanf("%f",&base);
+	printf("ingrese la altura ");
+    scanf("%f",&altura);
+	//calcula el area 
+	area=(base * altura)/2;
+	printf("\n \n el area es: %f" , area );
+	getch();
+
+}
